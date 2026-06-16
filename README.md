@@ -1,23 +1,31 @@
-# superstoreanalyst
-Data analysis of Superstore dataset using Python, pandas and SQL
-
 # 🛒 Superstore Sales Analysis
 
 ## 📋 Описание проекта
-Анализ датасета Superstore (9800 строк) — выявление ключевых инсайтов 
-по продажам, регионам и категориям товаров.
+Комплексный анализ датасета Superstore (9800 строк) — выявление ключевых 
+инсайтов по продажам, регионам и категориям товаров.
 
 ## 🛠️ Инструменты
-- Python (pandas, matplotlib, seaborn)
-- SQL
-- Power BI
+- **Python** (pandas, matplotlib, seaborn) — анализ данных
+- **SQL** — бизнес-запросы разного уровня сложности
+- **Power BI** — интерактивный дашборд
+
+## 📁 Файлы проекта
+- `superstore_eda.py` — Python EDA анализ + визуализация
+- `queries.sql` — 13+ SQL запросов (основы, JOIN, CTE, оконные функции)
+- `joins_example.sql` — примеры JOIN запросов
+- `dashboard.png` — скриншот Power BI дашборда
 
 ## 📊 Ключевые выводы
-- Регион **West** лидирует по выручке (710k) и количеству заказов (3150)
+- Регион **West** лидирует по выручке (710k) и заказам (3150)
 - Регион **South** отстаёт — потенциальная зона роста
 - Категория **Technology** приносит наибольшую выручку (827k)
-- В категории Technology обнаружены крупные выбросы (до 22 500 за заказ)
 - Сегмент **Consumer** генерирует 53% всех продаж
+- **Bookcases** и **Chairs** — топ подкатегории по продажам
 
-## 📁 Файлы
-- `superstore_eda.py` — Python код анализа данных
+## 🔍 SQL запросы включают
+- Базовые SELECT, GROUP BY, HAVING, ORDER BY
+- Фильтрация и агрегации
+- Подзапросы и CTE
+- Оконные функции (RANK, DENSE_RANK)
+- CASE WHEN классификация
+- JOIN примеры
